@@ -1,39 +1,80 @@
-form {
-  width: 90%;
-  margin: auto;
-  max-width: 550px;
+.form-style-9 {
+	max-width: 800px;
+	background: #fafafa;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305a72;
 }
-input,
-form button,
-label {
-  display: block;
+.form-style-9 h4 {
+	color: #305a72;
+	text-align: center;
+	font-size: large;
 }
-form button,
-input,
-textarea {
-  outline: none;
+.form-style-9 label {
+	color: #3985b1;
+	text-align: left;
+	font-size: medium;
 }
-input,
-textarea {
-  border: 1px solid rgb(199, 199, 199);
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 90%;
-  width: 100%;
-  height: 30px;
-  color: rgb(53, 53, 53);
+.form-style-9 ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
-textarea {
-  height: 50px;
+.form-style-9 ul li {
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
 }
-label {
-  margin-top: 10px;
+.form-style-9 ul li .field-style {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px;
+	outline: none;
+	border: 1px solid #b0cfe0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
 }
-form button {
-  --accent: rgb(0, 162, 255);
-  margin-top: 20px;
+.form-style-9 ul li .field-style:focus {
+	box-shadow: 0 0 5px #b0cfe0;
+	border: 1px solid #b0cfe0;
 }
-
-.form-container {
-  width: 90%;
+.form-style-9 ul li .field-split {
+	width: 33%;
+}
+.form-style-9 ul li .field-full {
+	width: 100%;
+}
+.form-style-9 ul li input.align-left {
+	float: left;
+}
+.form-style-9 ul li input.align-right {
+	float: right;
+}
+.form-style-9 ul li textarea {
+	width: 100%;
+	height: 100px;
+}
+.form-style-9 ul li input[type='button'],
+.form-style-9 ul li input[type='submit'] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985b1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985b1;
+	box-shadow: inset 0px 1px 0px 0px #3985b1;
+	background-color: #216288;
+	border: 1px solid #17445e;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type='button']:hover,
+.form-style-9 ul li input[type='submit']:hover {
+	background: linear-gradient(to bottom, #2d77a2 5%, #337da8 100%);
+	background-color: #28739e;
 }
